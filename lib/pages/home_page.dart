@@ -4,11 +4,7 @@ import 'package:flutter/material.dart';
 class Homepage extends StatelessWidget {
   int num = 03;
   String name = "Flutter";
-  var num1 = 3;
-  var num2 = 4;
-  var sum = 0;
   
-
   Homepage({super.key});
 
   @override
@@ -18,7 +14,7 @@ class Homepage extends StatelessWidget {
         title: const Text("Catalog app"),
       ),
       body: Center(
-        child: Text("Welcome to $num days of $name and sum is $sum"),
+        child: Text("Welcome to $num days of $name"),
       ),
       drawer: const Drawer(),
     );
